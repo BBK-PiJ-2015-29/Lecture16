@@ -1,12 +1,11 @@
 /**
- * cp programme that takes two names from the user at the command line. 
- * If a file with the first name exists, the program copies it into a 
- * file with the second name.
- * If the first file does not exist, the program must say so. If the 
- * second file does exists, the program must ask the user whether to 
- * overwrite it or not, and act accordingly.
+ * CpB programme that takes many file names at the command line. 
+ * When this happens, the last name must be a directory 
+ * (otherwise, your program should complain). If it is a directory, 
+ * your program has to copy all files (i.e. the other arguments)
+ * into that directory.
  *
- * Exercise 4a - Week 16
+ * Exercise 4b - Week 16
  * @author ocouls01
  */
 import java.io.*;
